@@ -555,26 +555,25 @@ header {
   }
   .navbar ul li a {
     position: relative;
-    text-align: center !important;
     margin: 4rem 0;
     font-size: 3rem;
     padding-top: 3rem;
     font-weight: 400;
     width: 200px;
+    margin-left: 3rem;
+    color: var(--white);
     z-index: 2;
   }
   .navbar ul li a::after {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    height: 70px;
-    width: 100%;
+    top: 64%;
+    left: -7%;
+    height: 10px;
+    width: 10px;
     background-color: var(--white);
+    border-radius: 100px;
     transition: 0.4s;
-    border-top-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    z-index: -1;
   }
   .nav-right {
     display: none !important;
@@ -588,9 +587,10 @@ header {
   }
   .navbar ul .close {
     position: absolute;
-    top: 2%;
-    right: 5%;
+    top: 3%;
+    right: 6%;
     font-size: 3.5rem;
+    color: var(--white);
   }
   .navbar ul i {
     display: block;
