@@ -16,7 +16,7 @@ html {
   --white-light: #eee;
   --black: #000;
   --black-light: #333;
-
+  scroll-behavior: smooth;
   font-size: 62.5%;
 }
 
@@ -113,6 +113,7 @@ header {
   font-size: 2rem;
   transition: 0.3s;
   margin: 0 0.6rem;
+  cursor: pointer;
 }
 
 .nav-right i:hover {
@@ -126,7 +127,7 @@ header {
 .nav-right .bookmark span {
   background-color: var(--primary);
   color: var(--white);
-  padding: 0.3rem;
+  padding: 0.1rem 0.3rem;
   border-radius: 10rem;
   position: absolute;
   top: -9px;
@@ -328,9 +329,9 @@ header {
 }
 
 .idea-row .idea-col {
-  width: 50%;
   color: var(--white);
   text-align: center;
+  margin: 0 1rem;
 }
 
 .idea-col p {
@@ -541,11 +542,11 @@ header {
     text-align: center;
   }
   .navbar ul {
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: absolute;
     bottom: 0;
     left: 0;
     height: 100vh;
