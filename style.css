@@ -46,6 +46,10 @@ p {
   margin: 0 auto;
 }
 
+iframe {
+  display: none;
+}
+
 .navbar .hamburger i {
   font-size: 3rem;
 }
